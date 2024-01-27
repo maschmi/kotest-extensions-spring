@@ -26,6 +26,7 @@ dependencies {
    testImplementation(libs.kotest.framework.datatest)
    testImplementation(libs.kotest.property)
    testImplementation(libs.spring.boot.test)
+   testImplementation(libs.mockito.kotlin)
 }
 
 tasks.withType<Test> {

@@ -6,6 +6,7 @@ kotest = "5.8.0"
 spring = "5.3.31"
 spring-boot = "2.7.16"
 byte-buddy = "1.14.11"
+mockito-kotlin = "5.2.1"
 
 [libraries]
 kotlin-reflect = { group = "org.jetbrains.kotlin", name = "kotlin-reflect", version.ref = "kotlin" }
@@ -19,7 +20,7 @@ kotest-runner-junit5 = { group = "io.kotest", name = "kotest-runner-junit5", ver
 spring-context = { group = "org.springframework", name = "spring-context", version.ref = "spring" }
 spring-test = { group = "org.springframework", name = "spring-test", version.ref = "spring" }
 spring-boot-test = { group = "org.springframework.boot", name = "spring-boot-starter-test", version.ref = "spring-boot" }
-
+mockito-kotlin = {group = "org.mockito.kotlin", name = "mockito-kotlin", version.ref="mockito-kotlin" }
 byteBuddy = { group = "net.bytebuddy", name = "byte-buddy", version.ref = "byte-buddy" }
 
 [plugins]
