@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration
 class Components {
 
    @Bean
-   fun userService(repo: DefaultRepository) = UserService(repo)
+   fun userService(repo: UserRepository) = UserService(repo)
 
    @Bean
    fun userRepository() = DefaultRepository()

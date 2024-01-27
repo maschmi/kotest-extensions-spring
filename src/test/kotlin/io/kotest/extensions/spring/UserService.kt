@@ -13,4 +13,4 @@ class DefaultRepository : UserRepository {
 }
 
 @Component
-class UserService(val repository: DefaultRepository)
+class UserService(val repository: UserRepository)
